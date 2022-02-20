@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dog Generator</title>
+        <link type="text/css" href = "style.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body-content">
+            <h1 class="title">Elaine's Dog Generator</h1>
+
+            <div class="image" id="dog-image">
+                <!-- <img width="500" height="300" src="https://www.rover.com/blog/wp-content/uploads/2019/10/sof-coated-wheaten-terrier-HERO.jpg"> -->
+            </div>
+
+            <input class="dog-input" id="dog-name"/>
+
+            <div class="button-container">
+                <button id="random" onClick="getRandomImage()">Random Dog</button>
+                <button id="specific" onClick="getSpecificImage()">Specific Dog Breed</button>
+            </div>
+
+            <!-- cooler error message:
+            <div class="error-message" id="errorMessage">
+                <h4>woof woof, we couldn't find that dog! please try again.</h4>
+            </div> -->
+
+        </div>
+    </body>
+</html>
+
+<script src="index.js"></script>
